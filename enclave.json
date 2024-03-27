@@ -1,0 +1,29 @@
+{
+ "exe": "main",
+ "key": "private.pem",
+ "debug": true,
+ "heapSize": 512,
+ "executableHeap": false,
+ "productID": 1,
+ "securityVersion": 1,
+ "mounts": [
+    {
+        "source": "/home/jason/Desktop/libbrc20-indexer",
+        "target": "/home/jason/Desktop/libbrc20-indexer",
+        "type": "hostfs",
+        "readOnly": false
+    }
+ ],
+ "env": [
+    {
+        "name": "PWD",
+        "value": "/home/jason/Desktop/libbrc20-indexer"
+    }
+ ],
+"files": [
+    {
+        "source": "/etc/ssl/certs/ca-certificates.crt",
+        "target": "/etc/ssl/certs/ca-certificates.crt"
+    }
+ ] 
+}

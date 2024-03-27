@@ -8,8 +8,8 @@
  "securityVersion": 1,
  "mounts": [
     {
-        "source": "/home/jason/Desktop/libbrc20-indexer",
-        "target": "/home/jason/Desktop/libbrc20-indexer",
+        "source": "/libbrc20-indexer",
+        "target": "/libbrc20-indexer",
         "type": "hostfs",
         "readOnly": false
     }
@@ -17,7 +17,7 @@
  "env": [
     {
         "name": "PWD",
-        "value": "/home/jason/Desktop/libbrc20-indexer"
+        "value": "/libbrc20-indexer"
     }
  ],
 "files": [
